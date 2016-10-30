@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PewPew::Boss">
+    <Position X="7" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQAIAAAAAABCgIAQAAAAAAAAAAAABAEAAAAAAAIABA=</HashCode>
+      <FileName>Boss.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PewPew::Controls">
+    <Position X="25.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAACAIAAAAAAAAAAAAAAAAAAAAAAhCEAAAAA=</HashCode>
+      <FileName>Controls.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PewPew::Ecran">
+    <Position X="23.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAQAAAAAAAAAAAAAAAAAACgABAAAAGAAAAIAA=</HashCode>
+      <FileName>Ecran.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PewPew::EnnemiFactory">
+    <Position X="25.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EnnemiFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PewPew::Game">
+    <Position X="20" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQSBAAISAAAEEpAAAIAFBMIAAGzgAAoQAQASAQNQEMI=</HashCode>
+      <FileName>Game.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PewPew::Obstacle">
+    <Position X="12" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QgACAAEgAIAAAAAAAAAAAAAgAAAAAABAAAQCCAAAAAA=</HashCode>
+      <FileName>Obstacle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PewPew::SoundPlayer">
+    <Position X="18.25" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JAQAAAAAAAAAAAAAAAAAAAoBAACAAAAAAAACEAAAAAA=</HashCode>
+      <FileName>SoundPlayer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PewPew::Ennemi">
+    <Position X="10.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQhIAgABEABCBYAAAAABAAgEAAASABAEAAAAAAAAhA=</HashCode>
+      <FileName>Ennemi.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PewPew::TirBoss">
+    <Position X="2.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAEAAAIAAAgAAAAACAAgAAAAAAAAAAAACAAAAAEA=</HashCode>
+      <FileName>TirBoss.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PewPew::UI">
+    <Position X="2.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgIURgCAEgAgigAAAAAMABAAAIAAAARCAQCgAACAEAA=</HashCode>
+      <FileName>UI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PewPew::Base">
+    <Position X="12.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAABCAAAAAAAAAAAAAAAAAAAAEAAAAAAQAA=</HashCode>
+      <FileName>Base.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PewPew::BaseAmelioree">
+    <Position X="12.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAABDAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BaseAmelioree.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PewPew::Evantail">
+    <Position X="15" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUAAAAAAAABCABAAAAAAAAAAAAEAABAAQAAAAAAAAA=</HashCode>
+      <FileName>Evantail.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PewPew::Joueur">
+    <Position X="5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAIAAAAEUpCAAAgAAMAIAIBARAAABAoAIRgBAABBA=</HashCode>
+      <FileName>Joueur.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PewPew::Kamikaze">
+    <Position X="8.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAABCAIAAAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Kamikaze.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PewPew::Multishot">
+    <Position X="11.25" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAEAAAABCAAAAAAQAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Multishot.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PewPew::Vaisseau">
+    <Position X="8" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQgIAAAAAABCAAAAQAAQAEAEBBAAQRAAAQAAAAAAAA=</HashCode>
+      <FileName>Vaisseau.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PewPew::Tir">
+    <Position X="2.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACQAgAAIAAIAAAACCAIAABgAAEAAQAAIACACCAAAA=</HashCode>
+      <FileName>Tir.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PewPew::TirCharge">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACBAAACoAABAAAAAAAAAAAAMAAAACAQABCAAAAAAA=</HashCode>
+      <FileName>TirCharge.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PewPew::TirChercheur">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAACAAAAAAACAAAAAAAAAAAIiAAACAAA=</HashCode>
+      <FileName>TirChercheur.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PewPew::TirEvantail">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAECAAAAAIAADgAAAAEAAAgAAAAAAAAAAAACAABAAEA=</HashCode>
+      <FileName>TirEvantail.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PewPew::TirFactory">
+    <Position X="18.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>TirFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PewPew::TirNormal">
+    <Position X="5.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAEACAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>TirNormal.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PewPew::BombeExplo">
+    <Position X="16.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAggAAAAACAACAIAAAMAgAAAgAACAAAAAAAAAAAQ=</HashCode>
+      <FileName>BombeExplo.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PewPew::BombeMagnetique">
+    <Position X="22.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgCAACAACAIAAAMAAAAAgAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>BombeMagnetique.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PewPew::Bonus">
+    <Position X="20.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hAMVAAAQABBACg0AACASEACgAgABAAAIAAATDAgABQQ=</HashCode>
+      <FileName>Bonus.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PewPew::BonusFactory">
+    <Position X="18.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEABA=</HashCode>
+      <FileName>BonusFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PewPew::Bouclier">
+    <Position X="22.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAACAAAIQAAAAEAAAAAAwCABAAAAAAABAQ=</HashCode>
+      <FileName>Bouclier.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PewPew::Multiplicateur">
+    <Position X="14.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAEAgAAAABAAAAAAAAAAAAQAAAAQ=</HashCode>
+      <FileName>Multiplicateur.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PewPew::PointsBonus">
+    <Position X="14.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAACAAAAAgAAAAAAAAAACAAAAAAAAAAAAQ=</HashCode>
+      <FileName>PointsBonus.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PewPew::Soin">
+    <Position X="18.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAEAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Soin.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PewPew::Arme">
+    <Position X="27" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAABAAAAACAABEAAAEAAAAAAAAAAAAAAQIIEVAAQ=</HashCode>
+      <FileName>Arme.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PewPew::ArmeCharge">
+    <Position X="29.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAABAAAAAQACAAAAAAAIAAAAAAAAAAAAAAAAAAEAAQ=</HashCode>
+      <FileName>ArmeCharge.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PewPew::ArmeNormal">
+    <Position X="27" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAIAAAAAAAAAAAEAAQ=</HashCode>
+      <FileName>ArmeNormal.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PewPew::ArmeNormalPlus">
+    <Position X="27" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAEAAQ=</HashCode>
+      <FileName>ArmeNormalPlus.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PewPew::ArmeTriangle">
+    <Position X="24.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAACAAAAAAAAAAAIAAAACAAAAAAAAAEAAQ=</HashCode>
+      <FileName>ArmeTriangle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FondMobile">
+    <Position X="21.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACEAAAIAEAgAAICAIIAAAACoAAAQAAAAAAAAAAAE=</HashCode>
+      <FileName>FondMobile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IObserver">
+    <Position X="8.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>IObserver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Subject">
+    <Position X="7.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIABAAAAAAAAAAAAAAAAAAAAAAgAEAAAAAhAAAAAA=</HashCode>
+      <FileName>Subject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="myns::Node&lt;T&gt;">
+    <Position X="21.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAIAAAgAAIAACAAAAMAAAA=</HashCode>
+      <FileName>Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="myns::Pile&lt;T&gt;">
+    <Position X="23.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAABgAAAAAAACACAAAAAAAAAAACAA=</HashCode>
+      <FileName>Pile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="PewPew::typesEnnemis">
+    <Position X="25.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAABABAAEAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Constante.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

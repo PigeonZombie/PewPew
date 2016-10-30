@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BE0F1AC4-3DEB-4AA4-AACC-300CB6B389B3}</ProjectGuid>
+    <RootNamespace>PewPew</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(SFML_ROOT)\include;$(VLD_ROOT)\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SFML_ROOT)\lib;$(VLD_ROOT)\lib\Win32;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>sfml-system-d.lib;sfml-main-d.lib;sfml-graphics-d.lib;sfml-audio-d.lib;sfml-network-d.lib;sfml-window-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Arme.cpp" />
+    <ClCompile Include="ArmeCharge.cpp" />
+    <ClCompile Include="ArmeNormal.cpp" />
+    <ClCompile Include="ArmeNormalPlus.cpp" />
+    <ClCompile Include="ArmeTriangle.cpp" />
+    <ClCompile Include="Base.cpp" />
+    <ClCompile Include="BaseAmelioree.cpp" />
+    <ClCompile Include="BombeExplo.cpp" />
+    <ClCompile Include="BombeMagnetique.cpp" />
+    <ClCompile Include="Bonus.cpp" />
+    <ClCompile Include="Boss.cpp" />
+    <ClCompile Include="Bouclier.cpp" />
+    <ClCompile Include="Ecran.cpp" />
+    <ClCompile Include="Ennemi.cpp" />
+    <ClCompile Include="Evantail.cpp" />
+    <ClCompile Include="FondMobile.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Joueur.cpp" />
+    <ClCompile Include="Kamikaze.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Multiplicateur.cpp" />
+    <ClCompile Include="Multishot.cpp" />
+    <ClCompile Include="Obstacle.cpp" />
+    <ClCompile Include="PointsBonus.cpp" />
+    <ClCompile Include="Soin.cpp" />
+    <ClCompile Include="SoundPlayer.cpp" />
+    <ClCompile Include="Subject.cpp" />
+    <ClCompile Include="Tir.cpp" />
+    <ClCompile Include="TirBoss.cpp" />
+    <ClCompile Include="TirCharge.cpp" />
+    <ClCompile Include="TirChercheur.cpp" />
+    <ClCompile Include="TirEvantail.cpp" />
+    <ClCompile Include="TirFactory.cpp" />
+    <ClCompile Include="TirNormal.cpp" />
+    <ClCompile Include="UI.cpp" />
+    <ClCompile Include="Vaisseau.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Arme.h" />
+    <ClInclude Include="ArmeCharge.h" />
+    <ClInclude Include="ArmeNormal.h" />
+    <ClInclude Include="ArmeNormalPlus.h" />
+    <ClInclude Include="ArmeTriangle.h" />
+    <ClInclude Include="Base.h" />
+    <ClInclude Include="BaseAmelioree.h" />
+    <ClInclude Include="BombeExplo.h" />
+    <ClInclude Include="BombeMagnetique.h" />
+    <ClInclude Include="Bonus.h" />
+    <ClInclude Include="BonusFactory.h" />
+    <ClInclude Include="Boss.h" />
+    <ClInclude Include="Bouclier.h" />
+    <ClInclude Include="Constante.h" />
+    <ClInclude Include="Controls.h" />
+    <ClInclude Include="Ecran.h" />
+    <ClInclude Include="Ennemi.h" />
+    <ClInclude Include="EnnemiFactory.h" />
+    <ClInclude Include="Evantail.h" />
+    <ClInclude Include="FondMobile.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="IObserver.h" />
+    <ClInclude Include="Joueur.h" />
+    <ClInclude Include="Kamikaze.h" />
+    <ClInclude Include="Multiplicateur.h" />
+    <ClInclude Include="Multishot.h" />
+    <ClInclude Include="Node.h" />
+    <ClInclude Include="Obstacle.h" />
+    <ClInclude Include="Pile.h" />
+    <ClInclude Include="PointsBonus.h" />
+    <ClInclude Include="Soin.h" />
+    <ClInclude Include="SoundPlayer.h" />
+    <ClInclude Include="Subject.h" />
+    <ClInclude Include="Tir.h" />
+    <ClInclude Include="TirBoss.h" />
+    <ClInclude Include="TirCharge.h" />
+    <ClInclude Include="TirChercheur.h" />
+    <ClInclude Include="TirEvantail.h" />
+    <ClInclude Include="TirFactory.h" />
+    <ClInclude Include="TirNormal.h" />
+    <ClInclude Include="UI.h" />
+    <ClInclude Include="Vaisseau.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\SpaceShips">
+      <UniqueIdentifier>{72fdfc7d-dc27-4071-a02a-94ed0bab1f4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Structures">
+      <UniqueIdentifier>{46bd2751-fa9d-40b0-aeee-a6df5a5a2b9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Shots">
+      <UniqueIdentifier>{8950ebbd-2fd5-4fcb-8ed9-d93ed33020df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Ships">
+      <UniqueIdentifier>{74e990e4-0fe8-4eba-81bb-2e7797922338}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Tirs">
+      <UniqueIdentifier>{53b375a8-e794-42a4-adce-f59e25d1f8bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Bonus">
+      <UniqueIdentifier>{9146ac6e-39c2-4c11-b412-7b40e788c3ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Bonus">
+      <UniqueIdentifier>{8dcae379-5f5c-4e9b-a857-7820881c29ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Arme">
+      <UniqueIdentifier>{c9cab2e8-2b6f-4570-9278-2451e85509cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Arme">
+      <UniqueIdentifier>{f95ef8c0-a1c3-4b20-93e0-8b2853dfd9a1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="FondMobile.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Subject.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Base.cpp">
+      <Filter>Fichiers sources\Ships</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseAmelioree.cpp">
+      <Filter>Fichiers sources\Ships</Filter>
+    </ClCompile>
+    <ClCompile Include="Ennemi.cpp">
+      <Filter>Fichiers sources\Ships</Filter>
+    </ClCompile>
+    <ClCompile Include="Evantail.cpp">
+      <Filter>Fichiers sources\Ships</Filter>
+    </ClCompile>
+    <ClCompile Include="Joueur.cpp">
+      <Filter>Fichiers sources\Ships</Filter>
+    </ClCompile>
+    <ClCompile Include="Kamikaze.cpp">
+      <Filter>Fichiers sources\Ships</Filter>
+    </ClCompile>
+    <ClCompile Include="Multishot.cpp">
+      <Filter>Fichiers sources\Ships</Filter>
+    </ClCompile>
+    <ClCompile Include="Vaisseau.cpp">
+      <Filter>Fichiers sources\Ships</Filter>
+    </ClCompile>
+    <ClCompile Include="TirNormal.cpp">
+      <Filter>Fichiers sources\Tirs</Filter>
+    </ClCompile>
+    <ClCompile Include="TirFactory.cpp">
+      <Filter>Fichiers sources\Tirs</Filter>
+    </ClCompile>
+    <ClCompile Include="TirChercheur.cpp">
+      <Filter>Fichiers sources\Tirs</Filter>
+    </ClCompile>
+    <ClCompile Include="Tir.cpp">
+      <Filter>Fichiers sources\Tirs</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Bonus.cpp">
+      <Filter>Fichiers sources\Bonus</Filter>
+    </ClCompile>
+    <ClCompile Include="Bouclier.cpp">
+      <Filter>Fichiers sources\Bonus</Filter>
+    </ClCompile>
+    <ClCompile Include="PointsBonus.cpp">
+      <Filter>Fichiers sources\Bonus</Filter>
+    </ClCompile>
+    <ClCompile Include="Soin.cpp">
+      <Filter>Fichiers sources\Bonus</Filter>
+    </ClCompile>
+    <ClCompile Include="BombeExplo.cpp">
+      <Filter>Fichiers sources\Bonus</Filter>
+    </ClCompile>
+    <ClCompile Include="BombeMagnetique.cpp">
+      <Filter>Fichiers sources\Bonus</Filter>
+    </ClCompile>
+    <ClCompile Include="Multiplicateur.cpp">
+      <Filter>Fichiers sources\Bonus</Filter>
+    </ClCompile>
+    <ClCompile Include="TirEvantail.cpp">
+      <Filter>Fichiers sources\Tirs</Filter>
+    </ClCompile>
+    <ClCompile Include="Arme.cpp">
+      <Filter>Fichiers sources\Arme</Filter>
+    </ClCompile>
+    <ClCompile Include="ArmeNormal.cpp">
+      <Filter>Fichiers sources\Arme</Filter>
+    </ClCompile>
+    <ClCompile Include="ArmeNormalPlus.cpp">
+      <Filter>Fichiers sources\Arme</Filter>
+    </ClCompile>
+    <ClCompile Include="ArmeTriangle.cpp">
+      <Filter>Fichiers sources\Arme</Filter>
+    </ClCompile>
+    <ClCompile Include="ArmeCharge.cpp">
+      <Filter>Fichiers sources\Arme</Filter>
+    </ClCompile>
+    <ClCompile Include="TirCharge.cpp">
+      <Filter>Fichiers sources\Tirs</Filter>
+    </ClCompile>
+    <ClCompile Include="Obstacle.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundPlayer.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Ecran.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="TirBoss.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>Fichiers sources\Ships</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="FondMobile.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Constante.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="EnnemiFactory.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Base.h">
+      <Filter>Fichiers d%27en-tête\SpaceShips</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseAmelioree.h">
+      <Filter>Fichiers d%27en-tête\SpaceShips</Filter>
+    </ClInclude>
+    <ClInclude Include="Ennemi.h">
+      <Filter>Fichiers d%27en-tête\SpaceShips</Filter>
+    </ClInclude>
+    <ClInclude Include="Evantail.h">
+      <Filter>Fichiers d%27en-tête\SpaceShips</Filter>
+    </ClInclude>
+    <ClInclude Include="Joueur.h">
+      <Filter>Fichiers d%27en-tête\SpaceShips</Filter>
+    </ClInclude>
+    <ClInclude Include="Multishot.h">
+      <Filter>Fichiers d%27en-tête\SpaceShips</Filter>
+    </ClInclude>
+    <ClInclude Include="Vaisseau.h">
+      <Filter>Fichiers d%27en-tête\SpaceShips</Filter>
+    </ClInclude>
+    <ClInclude Include="Kamikaze.h">
+      <Filter>Fichiers d%27en-tête\SpaceShips</Filter>
+    </ClInclude>
+    <ClInclude Include="Pile.h">
+      <Filter>Fichiers d%27en-tête\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Subject.h">
+      <Filter>Fichiers d%27en-tête\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="IObserver.h">
+      <Filter>Fichiers d%27en-tête\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Tir.h">
+      <Filter>Fichiers d%27en-tête\Shots</Filter>
+    </ClInclude>
+    <ClInclude Include="TirChercheur.h">
+      <Filter>Fichiers d%27en-tête\Shots</Filter>
+    </ClInclude>
+    <ClInclude Include="TirNormal.h">
+      <Filter>Fichiers d%27en-tête\Shots</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Bonus.h">
+      <Filter>Fichiers d%27en-tête\Bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="BonusFactory.h">
+      <Filter>Fichiers d%27en-tête\Bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="Bouclier.h">
+      <Filter>Fichiers d%27en-tête\Bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="PointsBonus.h">
+      <Filter>Fichiers d%27en-tête\Bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="Soin.h">
+      <Filter>Fichiers d%27en-tête\Bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="BombeExplo.h">
+      <Filter>Fichiers d%27en-tête\Bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="BombeMagnetique.h">
+      <Filter>Fichiers d%27en-tête\Bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="Multiplicateur.h">
+      <Filter>Fichiers d%27en-tête\Bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="TirFactory.h">
+      <Filter>Fichiers d%27en-tête\Shots</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Fichiers d%27en-tête\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="TirEvantail.h">
+      <Filter>Fichiers d%27en-tête\Shots</Filter>
+    </ClInclude>
+    <ClInclude Include="Arme.h">
+      <Filter>Fichiers d%27en-tête\Arme</Filter>
+    </ClInclude>
+    <ClInclude Include="ArmeNormal.h">
+      <Filter>Fichiers d%27en-tête\Arme</Filter>
+    </ClInclude>
+    <ClInclude Include="ArmeNormalPlus.h">
+      <Filter>Fichiers d%27en-tête\Arme</Filter>
+    </ClInclude>
+    <ClInclude Include="ArmeTriangle.h">
+      <Filter>Fichiers d%27en-tête\Arme</Filter>
+    </ClInclude>
+    <ClInclude Include="ArmeCharge.h">
+      <Filter>Fichiers d%27en-tête\Arme</Filter>
+    </ClInclude>
+    <ClInclude Include="TirCharge.h">
+      <Filter>Fichiers d%27en-tête\Shots</Filter>
+    </ClInclude>
+    <ClInclude Include="Obstacle.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundPlayer.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Ecran.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="TirBoss.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>Fichiers d%27en-tête\SpaceShips</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
